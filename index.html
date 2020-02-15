@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Formation git</title>
+</head>
+<body>
+    <h1 class="title">Formation à git</h1>
+    <div class="description">
+        <img src="./GitHub.jpg" title="logo github" alt="logo github">
+        <p><strong>Git</strong> est un logiciel de gestion de versions décentralisé. C'est un logiciel libre créé par Linus Torvalds, auteur du noyau Linux, et distribué selon les termes de la licence publique générale GNU version 2. En 2016, il s’agit du logiciel de gestion de versions le plus populaire qui est utilisé par plus de douze millions de personnes</p>
+    </div>
+    <article class="presentation">
+        <section class="floatl">
+            <h2>Commandes utiles</h2>
+            <ul>
+                <li><span class="commandes_name">git clone​</span> clone un dépôt distant</li>
+                <li><span class="commandes_name">git add​</span> ajoute de nouveaux objets blobs dans la base des objets pour chaque fichier modifié depuis le dernier commit. Les objets précédents restent inchangés</li>
+                <li><span class="commandes_name">git commit​</span>​ intègre la somme de contrôle SHA-1 d'un objet tree et les sommes de contrôle des objets commits parents pour créer un nouvel objet commit</li>
+                <li><span class="commandes_name">git push​</span> publie les nouvelles révisions sur le remote</li>
+                <li><span class="commandes_name">git pull</span>​ récupère les dernières modifications distantes du projet (depuis le Remote) et les fusionne dans la branche courante</li>
+            </ul>
+        </section>
+        <section class="floatr">
+            <h2>Fonctionnement</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fonction</th>
+                        <th>commande</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Récupérer le projet depuis le repo distant</td>
+                        <td>git clone</td>
+                    </tr>
+                    <tr>
+                        <td>Ajouter les fichiers dans la zone de transit</td>
+                        <td>git add</td>
+                    </tr>
+                    <tr>
+                        <td>Envoyer les modifications au repo local</td>
+                        <td>git commit</td>
+                    </tr>
+                    <tr>
+                        <td>Récupérer les modifications depuis le repo distant</td>
+                        <td>git pull</td>
+                    </tr>
+                    <tr>
+                        <td>Envoyer les modifications au repo distant</td>
+                        <td>git push</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <div class="clear"></div>
+        <img src="./git.png" title="foctionnement git" alt="schema de foctionnement git">
+    </article>
+</body>
+</html>
